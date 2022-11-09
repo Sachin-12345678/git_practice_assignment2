@@ -1,15 +1,13 @@
 
-let number=13;
-let factor=0;
-for(let i=1; i<number; i++){
-if(number%i==0)
-{
- factor++;
+let num=13;
+let count=0;
+for(let i=1; i<num; i++){
+if(num%i==0){
+ count++;
 }
 }
-if(factor==2)
-{
-console.log("prime no");
+if(count==2){
+console.log(num,"is a prime number");
 }else{
-console.log("NA");
-}
+console.log(num,"is not a prime number");
+};
